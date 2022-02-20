@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Formulario de Registro</title>
+</head>
+<body>
+    <h1>Mi Formulario de Registro</h1>
+    <form>    
+        <p>Por favor Regístrese</p>
+        <label>Nombre:<input type="text" name="nombre"></label>
+        <br>
+
+        <label>Apellido:<input type="text" name="apellido"></label>
+        <br>
+
+        <label>Email:<input type="email" name="email"></label>
+        <br>
+
+        <label>Contraseña:<input type="password" name="contraseña"></label>
+        <br>
+
+        <label>Confirmar:<input type="password" name="confirmar-contraseña"></label>
+        <br>
+
+        <label>Cumpleaños:<input type="date" name="cumpleaños"></label>
+        <br>
+
+        <label>Hombre<input type="radio" name="genero" value="hombre"></label>
+        
+        <label>Mujer<input type="radio" name="genero" value="mujer"></label>
+        
+        <label>Otro<input type="radio" name="genero" value="otro"></label>
+        <br>
+
+        <label>Una breve descripcion de ti:<input type="texto" name="descripcion"></label>
+        <div class="form-group">
+            <textarea id="descripcion" rows="10"></textarea>
+        </div>
+
+        <label>Lenguaje Favorito<input type="texto" name="lenguaje"></label>
+        <select id="lenguaje">
+            <option value="">HTML</option>
+            <option value="">JavaScript</option>
+            <option value="">CSS</option>
+        </select>
+        <br>
+        <input type="submit" value="ENVIAR">
+        
+    </form>
+</body>
+</html>
